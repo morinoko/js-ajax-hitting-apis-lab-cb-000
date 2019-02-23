@@ -1,5 +1,5 @@
 function getRepositories() {
-  let username = document.getElementById('username').value;
+  const username = document.getElementById('username').value;
   console.log('Getting repositories for', username);
 
   const req = new XMLHttpRequest();
